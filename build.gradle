@@ -93,6 +93,9 @@ dependencies {
     compile "org.grails.plugins:mail:2.0.0.RC4"
     compile "org.grails.plugins:grails-spring-websocket:2.3.0"
     runtime 'mysql:mysql-connector-java:5.1.36'
+
+    // LDAP Authentication
+    compile "org.grails.plugins:spring-security-ldap:3.0.2"
 }
 
 task wrapper(type: Wrapper) {
